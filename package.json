@@ -1,0 +1,39 @@
+{
+  "name": "apollo-server-starter",
+  "version": "1.0.0",
+  "description": "Apollo Server Starter is a project created to teach others how to create and manage an Apollo GraphQL Server from scratch using NodeJS.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyshadowsmith/apollo-server-starter.git"
+  },
+  "keywords": [
+    "Apollo",
+    "Apollo Server",
+    "Apollo Server Starter",
+    "GraphQL",
+    "GraphQL Server",
+    "NodeJS GraphQL",
+    "NodeJS GraphQL Server"
+  ],
+  "author": "Shadow Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heyshadowsmith/apollo-server-starter/issues"
+  },
+  "homepage": "https://github.com/heyshadowsmith/apollo-server-starter#readme",
+  "dependencies": {
+    "apollo-server": "^2.25.1",
+    "graphql": "^15.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
+}
