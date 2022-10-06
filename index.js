@@ -4,7 +4,11 @@ async function runServer() {
   try {
 
     const server = new ApolloServer({
-      typeDefs: gql``,
+      typeDefs: gql`
+        type Query {
+          placeholder: String
+        }
+      `,
       resolvers: {}
     })
 
